@@ -23,7 +23,21 @@ public class Calc_Marks {
                     System.out.println("Grade : A.");
                 }
                 break;
-            //case 80:
+            case 80:
+                if(sum_Degree<=80&&sum_Degree>60){
+                    System.out.println("Grade : B.");
+                }
+                break;
+            case 60 :
+                if(sum_Degree<=60&&sum_Degree>40){
+                    System.out.println("Grade : C.");
+                }
+                break;
+            default :
+                if(sum_Degree<40){
+                    System.out.println("Grade : F.");
+                }
+                break;
 
 
         }
